@@ -4,9 +4,13 @@ out = "out"
 libs = ["lib"]
 build_info = true
 extra_output = ["storageLayout"]
+remappings = [
+    "@openzeppelin/contracts=lib/openzeppelin-contracts/contracts",
+    "@openzeppelin/contracts-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts",
+    "@openzeppelin/foundry-upgrades=lib/openzeppelin-foundry-upgrades/contracts"
+]
 [rpc_endpoints]
-sepolia = "SEPOLIA_ENDPOINT_URL"
+sepolia = "https://eth-sepolia.g.alchemy.com/v2/8Ng0SdEBz6ledgv-2vvaNE6lW57XAoRn"
 
-remappings = ["@openzeppelin/contracts=lib/openzeppelin-contracts/contracts","@openzeppelin/contracts-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
