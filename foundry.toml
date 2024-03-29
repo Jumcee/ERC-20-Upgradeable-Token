@@ -6,6 +6,6 @@ libs = ["lib"]
 build_info = true
 extra_output = ["storageLayout"]
 [rpc_endpoints]
-sepolia = "SEPOLIA_ENDPOINT_URL"
+sepolia = "https://eth-sepolia.g.alchemy.com/v2/8Ng0SdEBz6ledgv-2vvaNE6lW57XAoRn"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
